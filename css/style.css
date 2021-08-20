@@ -28,7 +28,15 @@ body{
       padding: 10px 0;
     }
   }
-
+  .bg-primary{
+    background-color: #332222!important;
+  }
+ 
+ .typing{
+  color:rgb(247, 62, 62);
+  font-weight: bolder;
+  font-size: larger;
+ }
   /*===================== Hero section ======================*/
 
 .about-img{

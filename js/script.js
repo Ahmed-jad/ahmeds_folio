@@ -7,7 +7,7 @@ navLinks.forEach((l) => {
     l.addEventListener('click', () => { bsCollapse.toggle() })
 })
 
-
+ 
 
 // ( function($){
 //     " use stict"
@@ -93,4 +93,18 @@ $(window).scroll(function () {
 $('.back-to-top').click(function () {
     $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
     return true;
+});
+
+// typing text animation script
+var typed = new Typed(".typing", {
+  strings: [ "Developer", "Blogger", "Designer", "Freelancer", "YouTuber"],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true
+});
+var typed = new Typed(".typing-2", {
+  strings: [ "Developer", "Blogger", "Designer", "Freelancer", "YouTuber"],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true
 });
